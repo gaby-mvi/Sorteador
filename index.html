@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorteador</title>
+</head>
+
+<body>
+
+    <img class="background-image" src="./assets/fundo.jpg" alt="imagem-fundo">
+    <img class="dado-image" src="./assets/dado.gif" alt="dado-animado">
+
+    <main>
+        <section>
+            <h2>Sortear um número</h2>
+            <div>
+                <label>Entre
+                    <input id="input-min" type="number">
+                </label>
+                <label>e
+                    <input id="input-max" type="number">
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <label>Resultado = 
+                <input class="drawn-number" type="number">
+            </label>
+
+            <button class="draw-button">Sortear agora!</button>
+            <button class="clean-button">Limpar</button>
+        </section>
+
+        <p>Sorteador de números aleatórios gratuito.</p>
+
+    </main>
+
+    <footer>
+        <h3>Copyright &copy; 2023 - Desenvolvido por <a href="https://www.linkedin.com/in/gabriela-srosa/" target="_blank">Gabriela Rosa</a></h3>
+    </footer>
+
+</body>
+
+<script src="./script.js"></script>
+</html>
